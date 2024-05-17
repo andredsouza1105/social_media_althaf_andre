@@ -1,13 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
 import NewPost from './newPost';
-import React from 'react';
-
+import Header from './Header';
 function App() {
-  return <div>
-   <NewPost></NewPost>
-   </div>
-  ;
+  return (
+    <Header/>
+    <NewPost></NewPost>
+  );
 }
 
-export default App;
+
+
