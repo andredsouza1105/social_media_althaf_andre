@@ -1,21 +1,23 @@
 import React from 'react'
+import './css/Header.css';
 
 function Header() {
   return (
     <div className='Header'>
-        <div className="Header_logo"></div>
+        <div className="Header_logo">Logo
+        </div>
         <div className="Header_search">
-            <input className='header_searchInput' type='text'/>
+            <input className='Header_searchInput' type='text'/>
         </div>
         <div className="Header_nav">
-        <div className="header_option">
-
+        <div className="Header_option">
+         Option 1
         </div>
-        <div className="header_option">
-
+        <div className="Header_option">
+        Option 2
         </div>
-        <div className="header_option">
-            
+        <div className="Header_option">
+           Option 3 
         </div>
         </div>
     </div>

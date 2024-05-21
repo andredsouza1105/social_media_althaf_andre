@@ -1,0 +1,42 @@
+.Header
+{
+    background-color: lightblue;
+    position: sticky;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.Header_search
+{
+    
+  
+  align-items: center;
+    
+
+}
+.Header_searchInput
+{
+    height: 12px;
+    padding: 10px;
+    border: none;
+    
+}
+.Header_logo
+{
+    width: 150px;
+    background-color: red;
+    
+}
+.Header_option
+{
+   
+    background-color: yellow;
+}
+.Header_nav
+{
+    
+    display: flex;
+    background-color: green;
+}
