@@ -7,6 +7,7 @@ function newPost() {
     <textarea class="postBody" placeholder="What's on your mind?"></textarea> <br/>
     <button class="postButton">Post</button>
   </div>;
+    
 }
 
 export default newPost;
